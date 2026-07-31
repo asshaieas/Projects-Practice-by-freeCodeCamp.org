@@ -5,6 +5,8 @@ body{
 }
 h1{
     font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
 }
 h2{
     font-size: 30px;
@@ -14,6 +16,9 @@ h2{
 }
 h1, h2{
     font-family: Impact, serif;
+}
+.bottom-line{
+    margin-top: 25px;
 }
 h1, h2, p{
     text-align: center;
@@ -26,6 +31,12 @@ h1, h2, p{
     margin-left: auto;
     padding: 20px;
 }
+img{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: -25px;
+}
 hr{
     height: 2px;
     background-color: brown;
@@ -35,6 +46,7 @@ hr{
   display: inline-block;
   margin-top: 5px;
   margin-bottom: 5px;
+  font-size: 18px;
 }
 .flavor, .dessert{
   text-align: left;
@@ -52,4 +64,26 @@ hr{
 .price-ar, .price-ar{
     text-align: left;
     width: 25%;
+}
+/* FOOTER */
+footer{
+    font-size: 14px;
+}
+address{
+    font-style: normal;
+}
+.address{
+    margin-bottom: 5px;
+}
+a{
+    color: black;
+}
+a:visited{
+    color: black;
+}
+a:hover{
+    color: brown;
+}
+a:active{
+    color: brown;
 }
